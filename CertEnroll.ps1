@@ -88,13 +88,6 @@ Function Write-Log()
         Write-Log -sLogPath "C:\XOM\EMGLogs" -sLogFileName "test_task2.log" -sMessage "The message is ....." -iTabs 0 
 
 	.NOTES
-		- Name: Write-Log
-		- Author: Hugo Darino (Created in 2015)
-		- Version History
-			1.0 - 2015 (Hugo Darino)
-				Initial Version
-			2.0 - August, 2016 (Andre F Furtado)
-				Standarized the parameters binding and included the support of $global:UseGlobalDefinitions
     #>
 	[CmdletBinding()]
 	Param (
