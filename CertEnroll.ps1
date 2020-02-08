@@ -85,7 +85,7 @@ Function Write-Log()
         <String> What was written to the log
 
     .EXAMPLE
-        Write-Log -sLogPath "C:\XOM\EMGLogs" -sLogFileName "test_task2.log" -sMessage "The message is ....." -iTabs 0 
+        Write-Log -sLogPath "C:\" -sLogFileName "test_task2.log" -sMessage "The message is ....." -iTabs 0 
 
 	.NOTES
     #>
