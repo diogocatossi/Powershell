@@ -11,7 +11,7 @@
     .EXAMPLE
         .\AzurePowershell-CreateSimpleVMUsingTemplate.ps1 -ResourceGroupName RG01 -TemplateURI https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-windows/azuredeploy.json
 	.ISSUES
-		None
+		1. It will select the default Azure context for the provided user. If user's subscription have multiple contexts and user have access to those then Context selection should be implemented.
 	.NOTES
 		Version: 1.0 
 		Date: 2020/06/09
@@ -118,5 +118,4 @@ else
 		}
 	}
 }
-
 
